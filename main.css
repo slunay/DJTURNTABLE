@@ -484,13 +484,13 @@ footer {
   grid-area:resource1;
 }
 .resource2{
-  grid-area:resource1;
+  grid-area:resource2;
 }
 .resource3{
-  grid-area:resource1;
+  grid-area:resource3;
 }
 .resource4{
-  grid-area:resource1;
+  grid-area:resource4;
 }
 .articletext{
   grid-area:articletext;
