@@ -657,6 +657,7 @@ header, nav, main, footer, aside{
   display:grid;
   grid-template-columns:100%;
   place-items:center;
+  grid-gap:.5em;
   grid-template-areas:
   "resource1"
   "resource2"
@@ -813,6 +814,8 @@ header, nav, main, footer, aside{
 .nestedgrid10{
   display:grid;
   grid-template-columns:1fr 1fr;
+  padding:5px;
+  grid-gap:.5em;
   place-items:center;
   grid-template-areas:
   "resource1 resource2"
@@ -947,7 +950,7 @@ grid-template-areas:
 }
 .nestedgrid10{
   display:grid;
-  grid-template-columns:25% 25% 25% 25%;
+  grid-template-columns:1fr 1fr 1fr 1fr;
   grid-gap:.5em;
   padding:5px;
   grid-template-areas:
