@@ -301,8 +301,8 @@ article a:hover{
 }
 main{
   grid-area:main;
-  background:#4562a7;
-  color:#000000;
+  background:#3A518D;
+  color:#FFFFFF;
 }
 main h1{
   text-align:center;
@@ -313,11 +313,11 @@ main p {
 }
 main a{
   text-decoration:none;
-  color:#000000;
+  color:#FFFFFF;
   transition:all .2s ease-in-out;
 }
 main a:hover{
-  color:#FFFFFF;
+  color:#000000;
 }
 form {
   background-color:#729a30;
