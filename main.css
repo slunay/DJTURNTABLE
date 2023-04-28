@@ -282,7 +282,8 @@ aside p{
   padding:5px;
 }
 article{
-  background-color:#4562a7;
+  background:#3A518D;
+  color:#FFFFFF;
   grid-area:article;
 }
 article h1{
@@ -293,11 +294,11 @@ article h1{
 }
 article a{
   text-decoration:none;
-  color:#d4de56;
+  color:#FFFFFF;
   transition: all .2s ease-in-out;
 }
 article a:hover{
-  color:#FFFFFF
+  color:#000000;
 }
 main{
   grid-area:main;
@@ -320,10 +321,10 @@ main a:hover{
   color:#000000;
 }
 form {
-  background-color:#729a30;
+  background-color:#7BA735;
   width:90%;
   margin:auto;
-  color:white;
+  color:#000000;
   padding:10px;
 }
 .button{
