@@ -230,6 +230,10 @@ body{
   margin:0;
   padding:0;
   font-family:verdana;
+  background-size:cover cover;
+  height:100%;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
 }
 nav {
   grid-area:nav;
@@ -332,6 +336,9 @@ form {
   background-color:#FFFFFF;
   color:#000000;
   margin:10px 0 0 0;
+}
+audio, video{
+  max-width:100%;
 }
 .audio1{
   grid-area:audio1;
@@ -890,7 +897,7 @@ grid-template-areas:
 }
 .nestedgrid2{
  display:grid;
- grid-template-columns:auto 1fr 1fr 1fr;
+ grid-template-columns:1fr 1fr 1fr 1fr;
  grid-template-areas:
  "audio1 audio2 video1 video2"
  "mainpic mainpic video1 video2";
